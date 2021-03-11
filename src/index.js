@@ -81,7 +81,7 @@ const install = function(Vue, config = {}) {
 if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 };
-
+console.log(11);
 module.exports = {
   install,
   version,
