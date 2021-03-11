@@ -101,6 +101,7 @@
     watch: {
       currentValue(val) {
         this.$emit('input', val);
+        console.info(999);
       },
 
       value(val) {
